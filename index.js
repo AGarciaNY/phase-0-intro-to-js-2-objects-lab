@@ -11,9 +11,6 @@ function updateEmployeeWithKeyAndValue(employee, key, value){
 
   return newObj;
 }
-const employee2 = updateEmployeeWithKeyAndValue(
-  newObj
-);
 
 function destructivelyUpdateEmployeeWithKeyAndValue(employee, key, value){
   employee[key]=value;
